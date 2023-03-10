@@ -1,0 +1,17 @@
+
+ALGORITHM comparison_array
+VAR
+ tab1:array of integer[5]
+ tab2:array of integer[5]
+ test,false:BOOLEAN
+ sum,n:INTEGER
+BEGIN
+  for i from 0 in 4 do
+  for j from 0 in 4 do
+       IF (tab[i]!=tab[j]) THEN
+       sum=i+j;
+    else 
+    test=false
+  END_IF
+
+END
